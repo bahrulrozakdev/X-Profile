@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+
+nav {
+    color: #1937D6;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #1937D6;
+    font-weight: lighter;
+}
+
+span {
+    color: #1937D6;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+header {
+    background-image: url('https://images.unsplash.com/photo-1681097459634-b93348522bfc?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 860px;
+    background-size: cover;
+    color: white;
+}
+
+.header-heading {
+    padding-top: 25rem;
+    font-size: 28px;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+}
+
+main {
+    margin-top: 5rem;
+}
+
+section {
+    margin-top: 5rem;
+}
+
+.section-title h1 {
+    font-weight: bold;
+}
+
+.lines {
+    width: 73px;
+    color: #1937D6;
+    background-color: #1937D6;
+    height: 6px;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.section-description p {
+    font-size: 18px;
+}
+
+.services {
+    background-color: white;
+}
+
+.services-card {
+    border: 5px solid whitesmoke;
+    padding: 3rem;
+}
+
+.services-title {
+    padding-top: 1rem;
+}
+
+.icons {
+    font-size: 55px;
+    color: #1937D6;
+}
+
+.portfolio-thumbnail {
+    background-image: url('https://images.unsplash.com/photo-1559076118-13e1f70f5089?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.team-profile img {
+    width: 100%;
+}
+
+.team-username {
+    font-weight: bolder;
+    margin-top: 5rem;
+}
+
+footer {
+    background-color: #1937D6;
+    color: white;
+    padding-top: 5rem;
+}
+
+footer li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+}
